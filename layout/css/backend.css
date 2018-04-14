@@ -1,0 +1,364 @@
+/*Start index design*/
+
+body {
+    background-color: #ece8fe;
+}
+
+.home {
+    margin: 12px 0 0 4px;
+    color: #333333;
+}
+
+.home:hover {
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.fa.pull-right {
+    margin-left: -18px;
+}
+
+.container {
+    width: 800px;
+}
+
+.start-game,
+.choose-player,
+.add-word,
+.play-game,
+.result {
+    margin: 15% auto;
+    margin-bottom: 0;
+    border-radius: 12px;
+    background-color: #9b59b6;
+    height: 300px;
+    width: 550px;
+    box-shadow: 0px 4px 13px 1px;
+}
+
+.insert-cog {
+    font-size: 30px;
+    position: relative;
+    margin-top: 2%;
+    right: 0%;
+    cursor: pointer;
+}
+
+.insert-word {
+    width: 125px;
+    height: 40px;
+    background-color: #333333;
+    right: 16.5%;
+    position: relative;
+    margin-top: 12px;
+    border-radius: 3px;
+    display: none;
+}
+
+.insert-word a {
+    border-bottom: 1px solid #fff;
+}
+
+.insert-word-rotate {
+    transform: rotate(360deg);
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+}
+
+.insert-word a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.start-game .start-header {
+    color: #9B59B6;
+    font-weight: bold;
+    margin: 9% 0 4% 0;
+    font-size: 40px;
+    display: inline-block;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #000;
+}
+
+.start-game a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.start-game .mybtn,
+.choose-player .mybtn2,
+.add-word .mybtn3 {
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #333;
+    border: none;
+}
+
+.start-game .btn i {
+    display: block;
+    font-size: 40px;
+}
+
+.start-game .mybtn:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.blink {
+    color: #fff !important;
+}
+
+#div2blink {
+    -webkit-transition: backgroundColor 0.05s ease-in-out;
+    -ms-transition: backgroundColor 0.05s ease-in-out;
+    transition: backgroundColor 0.05s ease-in-out;
+}
+
+.start-game .mybtn:hover i {
+    color: #fff;
+    -webkit-transition: all 2.0s ease;
+    -moz-transition: all 2.0s ease;
+    -o-transition: all 2.0s ease;
+    transition: all 2.0s ease;
+}
+
+/*End index design*/
+
+/*Start add word design*/
+
+/*Start choose player design*/
+
+.choose-player .player-header,
+.add-word .word-header,
+.play-game .play-header {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 45px;
+}
+
+.choose-player .player-names,
+.add-word .new-word {
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+.choose-player .player-form,
+.add-word .add-form {
+    margin-top: 50px;
+}
+
+.choose-player .mybtn2,
+.add-word .mybtn3 {
+    margin-top: 20px;
+}
+
+.choose-player .mybtn2:focus,
+.add-word .mybtn3:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.choose-player i,
+.add-word i,
+.play-game i {
+    font-size: 30px;
+}
+
+.player-form .play:hover i,
+.add-word .add:hover i {
+    color: #fff;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+}
+
+/*End choose player design*/
+
+/*End add word design*/
+
+/*Start Playing desing*/
+
+.play-game h1 {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.play-game form input[type="text"] {
+    width: 130px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 13px;
+}
+
+.play-game form .try {
+    margin-right: 29%;
+}
+
+.play-game form .try1 {
+    margin-right: 45px;
+}
+
+.play-game .res1 {
+    position: absolute;
+    display: block;
+    margin: 0;
+    bottom: 29%;
+    left: 28.5%;
+}
+
+.play-game .res2 {
+    position: absolute;
+    display: block;
+    margin: 0;
+    bottom: 29%;
+    right: 28.5%;
+}
+
+.play-game .apply {
+    position: absolute;
+    display: block;
+    margin: 0;
+    bottom: 10%;
+    left: 45%;
+}
+
+.result .play-header {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 23px;
+}
+
+/*End Playing desing*/
+
+/*Start List Design*/
+
+.table-bordered > tbody > tr > td,
+.table-bordered > thead > tr > td {
+    border: 1px solid #999;
+}
+
+.table-bordered > thead > tr > td {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*End List Design*/
+
+/*Start Result Design*/
+
+.last-page i {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*End Result Design*/
+
+/*My Framework*/
+
+.success {
+    margin: 20%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.round {
+    background-color: #34495e;
+    color: #fff;
+    z-index: 999;
+    position: absolute;
+    padding: 38px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    left: 42%;
+    top: 45%;
+    opacity: 0.9;
+}
+
+.instruc {
+    background-color: #34495e;
+    color: #fff;
+    z-index: 999;
+    position: absolute;
+    padding: 38px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    left: 38%;
+    top: 33%;
+    opacity: 0.9;
+}
+
+.instruc h4 {
+    font-weight: bold;
+}
+
+.instruc ul li {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.instruc i {
+    position: absolute;
+    left: 47%;
+    bottom: 85%;
+}
+
+.instruc i:hover {
+    color: #e74c3c;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.head {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.list-home:hover {
+    color: #e74c3c !important;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.winner {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+}
+
+/*My Framework*/
